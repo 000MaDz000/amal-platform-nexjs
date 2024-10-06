@@ -3,4 +3,5 @@ export type CourseFilter = {
     categoryId: string,
     levelId: string,
     search: string;
+    page?: number;
 }
